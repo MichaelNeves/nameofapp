@@ -8,10 +8,26 @@
 }
 
 
-.product-description {
-  margin-bottom:20px;
-  border-bottom: thin solid lightgray;
+.product-name {
+  font-weight: bold;
 }
 
+.product-links {
+  padding:20px 0 20px 0;
+}
+
+.product-option{
+  padding:0 auto;
+
+}
+
+.edit-link {
+  border-right-style:solid;
+  border-left-style:solid;
+  border-color: rgba(0,0,0,0.09);
+  border-width: thin;
+  width:60px;
+  
+}
 
 
