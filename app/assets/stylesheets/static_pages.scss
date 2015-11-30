@@ -16,6 +16,11 @@ body{
   width:85%;
 }
 
+
+a:hover {
+  transition: .5s;
+  
+}
 //MAIN-PAGE-BRAND-DESIGN -------------------------------------
 .main-page-brand {
   padding-top:30px;
@@ -55,11 +60,12 @@ body{
 //NAVIGATION-BAR -------------------------------------
 .navbar-inverse {
   margin-bottom:0;
-  background-image:url('maze.jpg');
+  background-image:url('maze.png');
 }
 
 .nav-links li {
   list-style:none;
+
 }
 
 .nav-links {
@@ -72,15 +78,23 @@ body{
   padding-left:0;
   padding-right:10px;
   letter-spacing:2px;
-  text-decoration:underline;
+  
 }
 
 .navbar-inverse .navbar-brand {
-  color:white;
+  color:rgba(255,255,255,0.7);
 }
 
 .navbar {
   border-radius:5px 5px 0px 0px;
+}
+
+.navbar-nav a {
+  letter-spacing: 1px;
+}
+
+.navbar-nav li:hover {
+  background-color:rgba(1,1,1,0.3);
 }
 //FOOTER -------------------------------------
 
