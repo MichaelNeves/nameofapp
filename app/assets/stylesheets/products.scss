@@ -8,7 +8,7 @@
 }
 
 
-.product-name {
+.product-name h3 {
   font-weight: bold;
 }
 
@@ -29,5 +29,28 @@
   width:60px;
   
 }
+
+.product-image img {
+  border-radius: 10px;
+ box-shadow:0px 0px 5px 0px grey;
+  
+}
+
+.product-image {
+  padding: 0;
+}
+
+.product-header h4{
+ text-align: center;
+}
+
+.decorate-product-row {
+  background-image:url('diamond_upholstery.png');
+//  background-size: 20%;
+//  background-color: rgba(0,0,0,0.03);
+  border-radius: 20px;
+  box-shadow:0px 0px 1px 0px grey;
+}
+
 
 

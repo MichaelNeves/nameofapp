@@ -1,0 +1,20 @@
+<div class="decorate-product-row">
+    <div class="row">
+      <div class="col-md-5 product-image">
+        <%= image_tag product.image_url %>
+      </div>
+
+
+      <div class="col-md-6 product-name">
+        <h3><%= product.name %> <%= product.prices %></h3>
+        <p><%= product.description %></p>
+
+      </div>  
+    </div>
+   </div>
+    
+      <div class="row product-links">
+          <div class="col-md-1 col-xs-3 product-option"><%= link_to 'Show', product %></div>
+          <div class="col-md-1 col-xs-3 product-option edit-link"><%= link_to 'Edit', edit_product_path(product) %></div>
+          <div class="col-md-1 col-xs-3 product-option"><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></div>
+      </div>
