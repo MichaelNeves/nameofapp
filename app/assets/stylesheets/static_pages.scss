@@ -21,6 +21,23 @@ a:hover {
   transition:.5s;
   
 }
+
+//LANDING-PAGE -------------------------------------
+
+.carousel {
+  width:225px;
+  margin:20px auto;
+  box-shadow:0px 0px 2px 0px grey;
+}
+
+.carousel-control.left,.carousel-control.right {
+  background-image: none;
+}
+
+
+
+
+
 //MAIN-PAGE-BRAND-DESIGN -------------------------------------
 .main-page-brand {
   padding-top:30px;
